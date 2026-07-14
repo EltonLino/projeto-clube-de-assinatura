@@ -1,0 +1,36 @@
+.container{
+    padding-inline: 7.5rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+}
+
+.desktop-only{
+    display: block;
+}
+
+.mobile-only{
+    display: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .desktop-only{
+        display: none;
+    }
+
+    .mobile-only{
+        display: block;
+    }
+
+    .container{
+        padding-inline: 1.25rem;
+    }
+}
