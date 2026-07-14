@@ -116,6 +116,6 @@ h4{
 
 body{
     font: var(--body-md-reg);
-    background-color: var(--pink-low);
+    background-color: var(--shape-background);
     color: var(--text-body);
 }
