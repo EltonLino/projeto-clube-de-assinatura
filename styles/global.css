@@ -119,3 +119,7 @@ body{
     background-color: var(--shape-background);
     color: var(--text-body);
 }
+
+strong{
+    color: var(--blue-light);
+}
